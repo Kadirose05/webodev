@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Get In Touch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Contact Me</h2>
+        <p>I am open to internship opportunities and collaborations. Please fill out the form below.</p>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="fullname" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="meeting">Preferred Meeting Date:</label><br>
+                <input type="date" id="meeting" name="meeting_date"><br><br>
+
+                <label for="reason">Reason for Contact:</label><br>
+                <select id="reason" name="reason">
+                    <option value="job_offer">Job / Internship Offer</option>
+                    <option value="collaboration">Project Collaboration</option>
+                    <option value="freelance">Freelance Web Work</option>
+                    <option value="other">General Inquiry</option>
+                </select><br><br>
+
+                <label for="msg">Message:</label><br>
+                <textarea id="msg" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 Kadir Gul. All rights reserved.</p>
+    </footer>
+</body>
+</html>
